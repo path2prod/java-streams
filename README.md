@@ -1,8 +1,8 @@
 Repo to help mastering java streams. It's split in multiple sections to deal with different challenges. 
-Each section has 2 branches:
+Each section has its own path with 2 folders:
 
-* `section-n` contains tests to be completed and minimum compilation set up. This approach follows TDD therefore none test must pass
-* `section-n-full` contains full code for further assistance, every test pass.
+* `tdd` contains tests to be completed and minimum compilation set up. This approach follows TDD therefore none test must pass
+* `complete` contains full code for further assistance, every test pass.
 
 ## Topics 
 * Fundamental Operations: Creation, mapping, filtering, and reduction.
@@ -21,6 +21,7 @@ Each section has 2 branches:
 * Convert a list of strings to uppercase using map().
 * Sum all numbers in an array using reduce().
 * Find the maximum value in a list of integers.
+* Check none element in a list of strings contains the letter 'a'.
 * Check if any element in a list of strings contains the letter 'a'.
 
 ### 2 - Intermediate Operations
