@@ -4,6 +4,11 @@ Each section has its own path with 2 folders:
 * `tdd` contains tests to be completed and minimum compilation set up. This approach follows TDD therefore none test must pass
 * `complete` contains full code for further assistance, every test pass.
 
+## Notes
+* disabling Copilot autocomple
+* on a test file replace `tdd` import with `complete` to run original tests
+* install jdk23
+
 ## Topics 
 * Fundamental Operations: Creation, mapping, filtering, and reduction.
 * Intermediate and Advanced Transformations: Grouping, partitioning, custom collectors, and stream composition.
@@ -29,6 +34,7 @@ Each section has its own path with 2 folders:
 * Filter a list of Person objects to find all adults (age >= 18). Input: List<Person> where Person has name and age fields.
 * Transform a list of Product objects to just their names. Input: List<Product> where Product has name and price fields.
 * Sort a list of strings alphabetically, then convert to lowercase.
+* Sort reversed a list of strings alphabetically, then convert to uppercase.
 * Remove duplicate elements from a list.
 * Skip the first 5 elements of a stream and limit the result to 10 elements.
 
@@ -185,7 +191,6 @@ Each section has its own path with 2 folders:
 
 ### 23 - Bonus Challenges
 
-* Implement a mini SQL-like query engine using streams. Input: Data source and query specification.
 * Create a reactive stream processing system using Java streams and CompletableFuture.
 * Implement MapReduce patterns using Java streams for distributed data processing simulations.
 * Build a text search engine with ranking using streams and functional programming concepts. Input: Corpus of documents and search query.
