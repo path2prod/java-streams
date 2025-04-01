@@ -6,8 +6,10 @@ Each section has its own path with 2 folders:
 
 ## Notes
 * disabling Copilot autocomple
+* test classes must not changed
 * on a test file replace `tdd` import with `complete` to run original tests
 * install jdk23
+* enable preview to run individual tests on your IDE. `Build.gradle` already contains it although this only works when tests are delegated to Gradle
 
 ## Topics 
 * Fundamental Operations: Creation, mapping, filtering, and reduction.
@@ -40,10 +42,11 @@ Each section has its own path with 2 folders:
 
 ### 3 - Advanced Stream Processing
 
-* Group a list of employees by department. Input: List<Employee> where Employee has name and department fields.
-* Partition students into passing and failing based on grades (passing >= 60). Input: List<Student> with name and grade fields.
+* Group a list of employees by department - using Gather API. Input: List<Employee> where Employee has name and department fields.
+* Group a list of employees by department - using Collectors. Input: List<Employee> where Employee has name and department fields.
+* Partition total students into passing and failing based on grades (passing >= 60). Input: List<Student> with name and grade fields.
 * Calculate the average of all numbers in a list.
-* Find the top 3 most expensive products. Input: List<Product> with name and price fields.
+* Find the top 2 most expensive products. Input: List<Product> with name and price fields.
 * Concatenate multiple streams into a single stream.
 
 ### 4 - Stream Collectors
