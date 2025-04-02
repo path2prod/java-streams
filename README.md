@@ -51,8 +51,6 @@ Each section has its own path with 2 folders:
 
 ### 4 - Stream Collectors
 
-* Collect stream elements into a List, Set, and Map.
-* Join all strings in a list with a comma separator.
 * Group books by author and count books per author. Input: List<Book> with title and author fields.
 * Find the sum, average, min, and max price of all products. Input: List<Product> with price field.
 * Group transactions by currency and calculate the sum for each currency. Input: List<Transaction> with amount and currency fields.
