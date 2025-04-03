@@ -57,8 +57,7 @@ Each section has its own path with 2 folders:
 
 ### 5 - Parallel Streams
 
-* Compare execution time of sequential vs parallel streams for a large data set. Input: Generate a large list of random numbers.
-* Calculate the sum of a large array of numbers using both sequential and parallel streams.
+* Calculate the sum of a large array of numbers plus 5.
 * Find all prime numbers in a range using parallel streams.
 
 ### 6 - Stream Sources
