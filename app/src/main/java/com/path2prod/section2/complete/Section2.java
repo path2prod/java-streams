@@ -38,4 +38,11 @@ public class Section2 {
         return IntStream.rangeClosed(1, 25).boxed().skip(5).limit(10).toList();
     }
 
+    public static int challenge7(){
+        return Stream.iterate(new int[]{0,1}, f -> new int[]{ f[1], f[0] + f[1] } )
+        .limit(10)
+        .mapToInt( array -> array[0])
+        .sum();
+    }
+
 }

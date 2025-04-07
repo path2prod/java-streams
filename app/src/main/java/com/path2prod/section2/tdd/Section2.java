@@ -1,12 +1,10 @@
 package com.path2prod.section2.tdd;
 
-import java.util.Comparator;
 import java.util.List;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import com.path2prod.Person;
-import com.path2prod.Product;
 import com.path2prod.Utils;
 
 public class Section2 {
@@ -36,6 +34,10 @@ public class Section2 {
 
     public static List<Integer> challenge6(){
         return IntStream.rangeClosed(1, 25).boxed().toList();
+    }
+
+    public static int challenge7(){
+      return 0;
     }
 
 }

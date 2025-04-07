@@ -72,7 +72,12 @@ class Section2Test {
         expectedNums.forEach(num ->{
             assertTrue(List.of(6,7,8,9,10,11,12,13,14,15,16).contains(num));
         }); 
-        
+    }
+
+    @Test
+    @DisplayName("Use Stream.iterate() to create a Fibonacci sequence")
+    void challenge7(){
+        assertEquals(88, Section2.challenge7());
     }
 
 }
