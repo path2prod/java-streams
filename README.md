@@ -59,12 +59,11 @@ Each section has its own path with 2 folders:
 
 * Calculate the sum of a large array of numbers plus 5.
 * Find all prime numbers in a range using parallel streams.
+* Create a stream from a text file and count "lorem" word frequency. Input: Path to a text file.
 
 ### 6 - Stream Sources
 
-* Create streams from different sources: arrays, collections, values, files.
-* Generate an infinite stream of random numbers and limit to the first 10.
-* Create a stream from a text file and count word frequency. Input: Path to a text file.
+
 * Use Stream.iterate() to create a Fibonacci sequence.
 
 ### 7 - Specialized Streams

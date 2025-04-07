@@ -1,7 +1,12 @@
 package com.path2prod.section5.complete;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class Section5 {
 
@@ -14,6 +19,16 @@ public class Section5 {
                             .parallel()
                             .filter(Section5::isPrime)
                             .count();
+    }
+
+
+    public static long challenge3() throws IOException{
+        try (Stream<String> lines = Files.lines(Path.of("src/main/java/com/path2prod/resources/ramdon_text.txt").toAbsolutePath()).parallel()) {
+            return lines
+                .flatMap(line -> Arrays.stream(line.split("\\W+")))
+                .filter(word -> word.equalsIgnoreCase("lorem"))
+                .count();
+        }
     }
 
 

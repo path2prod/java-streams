@@ -8,3 +8,5 @@ build
 # Ignore editors setting
 .vscode
 .idea
+
+app/bin
