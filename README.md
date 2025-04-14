@@ -1,15 +1,22 @@
-Repo to help mastering java streams. It's split in multiple sections to deal with different challenges. 
+Repo to help mastering Java streams. It's split in multiple sections to deal with different challenges. 
 Each section has its own path with 2 folders:
 
 * `tdd` contains tests to be completed and minimum compilation set up. This approach follows TDD therefore none test must pass
 * `complete` contains full code for further assistance, every test pass.
 
+The purpose of this repo is not to complete every challenge, as nowadays any AI is able to do it in a blink. I'm playing with them to:
+* Better understand functional programming
+* Enhance my JAVA API searching and documentation reading skills
+* Experiment with less frequently used classes
+* Gain wider knowledge on Collectors and Comparators
+
+
 ## Notes
-* disabling Copilot autocomple
-* test classes must not changed
-* on a test file replace `tdd` import with `complete` to run original tests
-* install jdk23
-* enable preview to run individual tests on your IDE. `Build.gradle` already contains it although this only works when tests are delegated to Gradle
+* Disabling Copilot autocomplete is recommended.
+* Test classes must not changed
+* On a test file replace `tdd` import with `complete` to run original tests
+* Install jdk23
+* Enable preview to run individual tests on your IDE. `Build.gradle` already contains it although this only works when tests are delegated to Gradle
 
 ## Topics 
 * Fundamental Operations: Creation, mapping, filtering, and reduction.
@@ -71,10 +78,9 @@ Each section has its own path with 2 folders:
 
 ### 7 - Complex Operations
 
-* Implement a custom collector that builds a balanced binary search tree.
+* Define a custom collector for enhancing decimal coordeantes transforming to DMM format and joining with colon and wrapped by square brackets. Tip: use StringJoiner and `formatCoordinates` for getting expected result.
 * Process a CSV file of sales data and calculate total revenue by product category. Input: CSV file with columns for product, category, price, quantity.
 * Find the most frequently occurring word in a text file. Input: Path to text file.
-* Implement a sliding window algorithm using streams to find the moving average. Input: Array of prices and window size.
 * Flatten a list of lists into a single list using flatMap(). Input: List<List<Integer>>
 
 ### 8 - Terminal Operations
