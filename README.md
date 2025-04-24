@@ -85,11 +85,11 @@ The purpose of this repo is not to complete every challenge, as nowadays any AI 
 
 ### 8 - Terminal Operations
 
-* Use the allMatch(), anyMatch(), and noneMatch() operations with predicates.
-* Implement a custom stream reduction with the collect() method.
-* Count elements that satisfy a certain condition without using the count() method.
-* Find both the minimum and maximum value in a single stream pass.
-* Use the peek() method to debug intermediate stream operations.
+* Return if a stream of integer contains only odd numbers.
+* Return if a stream of integer contains any odd numbers.
+* Return if a stream of integer contains none odd numbers.
+* Count total distinct words using collect(). Tip: Create a local collector variable
+* Find both the minimum and maximum value in a single stream pass. Tip: Create a local collector variable for MinMaxCollector
 
 ### 9 - Exception Handling
 
