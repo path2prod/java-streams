@@ -1,21 +1,14 @@
 package com.path2prod.section7.tdd;
 
 import java.io.IOException;
-import java.math.BigDecimal;
-import java.math.RoundingMode;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.StringJoiner;
-import java.util.TreeMap;
 import java.util.function.BiConsumer;
-import java.util.stream.Collector;
-import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 public class Section7 {
 
@@ -39,7 +32,7 @@ public class Section7 {
     }
 
     public static List<Entry<String,Long>> challenge3() throws IOException{
-        Files.lines(Path.of("src/main/java/com/path2prod/resources/ramdon_text.txt").toAbsolutePath();
+        Files.lines(Path.of("src/main/java/com/path2prod/resources/ramdon_text.txt").toAbsolutePath());
         return null;
     }
 
