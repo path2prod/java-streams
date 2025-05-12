@@ -4,11 +4,16 @@
 [versions]
 guava = "33.3.1-jre"
 jackson = "2.18.3"
+lombok = "1.18.38"
+logback = "1.5.18"
+wiremock = "3.13.0"
 
 [libraries]
 guava = { module = "com.google.guava:guava", version.ref = "guava" }
-jackson-databind = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "jackson"}
-
+jackson-databind = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "jackson" }
+lombok = { module = "org.projectlombok:lombok", version.ref = "lombok" }
+logback = { module = "ch.qos.logback:logback-classic" , version.ref = "logback" }
+wiremock = { module = "org.wiremock:wiremock-standalone", version.ref = "wiremock" }
 
 [bundles]
 jackson = ["jackson-databind"]

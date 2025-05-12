@@ -1,0 +1,66 @@
+{
+    "mappings": [
+        {
+            "request": {
+                "method": "GET",
+                "url": "/product/p1"
+            },
+            "response": {
+                "status": 200,
+                "jsonBody": {
+                    "stock": "3"
+                },
+                "headers": {
+                    "Content-Type": "application/json"
+                }
+            }
+        },
+        {
+            "request": {
+                "method": "GET",
+                "url": "/product/p2"
+            },
+            "response": {
+                "status": 404,
+                "jsonBody": {
+                    "status": "Error",
+                    "message": "product sold out"
+                },
+                "headers": {
+                    "Content-Type": "application/json"
+                }
+            }
+        },
+        {
+            "request": {
+                "method": "GET",
+                "url": "/product/p3"
+            },
+            "response": {
+                "status": 404,
+                "jsonBody": {
+                    "status": "Error",
+                    "message": "product sold out"
+                },
+                "headers": {
+                    "Content-Type": "application/json"
+                }
+            }
+        },
+        {
+            "request": {
+                "method": "GET",
+                "url": "/product/p4"
+            },
+            "response": {
+                "status": 200,
+                "jsonBody": {
+                    "stock": "5"
+                },
+                "headers": {
+                    "Content-Type": "application/json"
+                }
+            }
+        }
+    ]
+}

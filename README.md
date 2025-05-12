@@ -93,8 +93,9 @@ The purpose of this repo is not to complete every challenge, as nowadays any AI 
 
 ### 9 - Exception Handling
 
-* Implement proper exception handling in stream operations.
-* Write a custom function that safely handles exceptions in a stream.
+* Builds a pipeline that converts strings to numbers, handling various format exceptions.
+* Build a parallel stream of JSON products and parse them, properly logging parsing exceptions.
+* Sanitise a shopping basket. Input: List<BasketItem> with <Product> and quantity, WireMock stubbed endpoints for each product returning avalaible stock `resources/mapping/section9_3.json`
 
 ### 10 - Optional Values
 
