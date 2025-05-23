@@ -21,6 +21,7 @@ dependencies {
     implementation libs.guava
     implementation libs.logback
     implementation libs.bundles.jackson
+    implementation libs.lang3
     testImplementation libs.wiremock
     compileOnly libs.lombok
     annotationProcessor libs.lombok

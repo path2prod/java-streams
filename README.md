@@ -99,8 +99,9 @@ The purpose of this repo is not to complete every challenge, as nowadays any AI 
 
 ### 10 - Optional Values
 
-* Use Optional with streams to handle null values safely.
-* Chain multiple Optional operations after finding an element in a stream.
+* Create a generic data validator that returns Optional results for different validation rules. Hint: Creating a validator builder acepting multiple validation rules and returning a functional interface validator with method validate.
+* Build An Either pattern implementation for functional error handling implementing a lift pattern.
+* Extract all valid phone numbers from profiles that have contact information. Input: List<UserProfile> with user and contact details
 
 ### 11 - Date/Time API Integration
 
