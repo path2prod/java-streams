@@ -106,7 +106,6 @@ The purpose of this repo is not to complete every challenge, as nowadays any AI 
 ### 11 - Date/Time API Integration
 
 * Process a stream of dates to find the earliest and latest dates. Input: List<LocalDate>
-* Group events by month and count events per month. Input: List<Event> with title and dateTime fields.
 
 ### 12 - Complex Data Transformations
 
