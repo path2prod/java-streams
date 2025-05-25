@@ -8,7 +8,7 @@ import java.util.List;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import com.path2prod.section11.complete.Section11;
+import com.path2prod.section11.tdd.Section11;
 
 public class Section11Test {
 
