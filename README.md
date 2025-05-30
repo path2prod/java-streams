@@ -107,31 +107,14 @@ The purpose of this repo is not to complete every challenge, as nowadays any AI 
 
 * Process a stream of dates to find the earliest and latest dates. Input: List<LocalDate>
 
-### 12 - Complex Data Transformations
+### 12 - Advanced Collectors
 
-* Given a nested structure of departments with employees, calculate the average salary per department. Input: List<Department> where Department has name and List<Employee>, Employee has name and salary.
-* Transform a stream of transactions into a summary report showing monthly totals. Input: List<Transaction> with date, amount, and category fields.
+* Find the longest sequence of consecutive integers in a list of unsorted numbers. Input: List<Integer> containing unsorted numbers.
 * Implement a custom comparator to sort products by price, then by name if prices are equal. Input: List<Product> with name and price fields.
 * Create a frequency map of characters in a string, ignoring case and non-alphabetic characters. Input: Any string.
-* Find the longest sequence of consecutive integers in a list of unsorted numbers. Input: List<Integer> containing unsorted numbers.
-
-### 13 - Advanced Collectors
-
-* Create a custom collector that builds a balanced tree map from a stream of entries.
-* Implement a collector that calculates statistical summary (count, sum, min, max, average) in a single pass.
 * Write a collector that performs hierarchical grouping (e.g., by year, then by month, then by day). Input: List<Event> with dateTime field.
-* Create a collector that performs a running total on a stream of financial transactions. Input: List<Transaction> with amount field.
-* Implement a collector that creates a histogram from a stream of values. Input: List<Double> and number of bins.
 
-### 14 - Stream Performance and Optimization
-
-* Compare the performance of different stream operations (filter, map, etc.) with large datasets.
-* Optimize a stream pipeline that processes millions of records by reordering operations.
-* Use the appropriate specialized stream type (IntStream, LongStream, DoubleStream) to improve performance.
-* Implement short-circuiting operations to improve performance when finding first matches.
-* Measure and optimize memory usage in stream operations that process large data sets.
-
-### 15 - Functional Interfaces with Streams
+### 13 - Functional Interfaces with Streams
 
 * Create and use custom functional interfaces with streams beyond the standard ones.
 * Implement a stream operation using all four standard functional interfaces (Function, Predicate, Consumer, Supplier).
@@ -139,7 +122,7 @@ The purpose of this repo is not to complete every challenge, as nowadays any AI 
 * Chain multiple functional operations together in a complex data processing pipeline.
 * Implement currying with streams to create reusable stream transformations.
 
-### 16 - Combining with Other Java Features
+### 14 - Combining with Other Java Features
 
 * Use streams with CompletableFuture to process data asynchronously. Input: List<URL> to fetch data from.
 * Integrate streams with Java NIO to process files efficiently. Input: Directory path containing multiple files.
@@ -147,7 +130,7 @@ The purpose of this repo is not to complete every challenge, as nowadays any AI 
 * Use streams with JUnit to generate test cases dynamically.
 * Integrate streams with JDBC to efficiently process database query results. Input: SQL query and database connection.
 
-### 17 - Advanced Stream Sources
+### 15 - Advanced Stream Sources
 
 * Create a stream from a recursive directory structure and process all files. Input: Root directory path.
 * Generate a stream from a custom Iterator implementation.
@@ -155,7 +138,7 @@ The purpose of this repo is not to complete every challenge, as nowadays any AI 
 * Create a stream from a Socket connection to process incoming data. Input: Socket connection details.
 * Implement a custom Spliterator for a specialized data source.
 
-### 18 - Stream Debugging and Testing
+### 16 - Stream Debugging and Testing
 
 * Add logging at different points in a stream pipeline without affecting the result.
 * Test stream operations with JUnit, including parallel streams.
@@ -164,7 +147,7 @@ The purpose of this repo is not to complete every challenge, as nowadays any AI 
 * Track and measure resource usage (memory, CPU) during stream processing.
 
 
-### 19 - Stream Composition and Reuse
+### 17 - Stream Composition and Reuse
 
 * Create reusable stream transformers that can be composed together.
 * Implement the decorator pattern with streams to add functionality to existing stream operations.
@@ -172,7 +155,7 @@ The purpose of this repo is not to complete every challenge, as nowadays any AI 
 * Create a stream processing framework that allows dynamic addition or removal of processing steps.
 * Implement function composition with streams to create complex transformations from simple ones.
 
-### 20 - Edge Cases and Corner Scenarios
+### 18 - Edge Cases and Corner Scenarios
 
 * Handle null values at various points in stream operations safely.
 * Process streams with infinite elements while avoiding OutOfMemoryError.
@@ -180,7 +163,7 @@ The purpose of this repo is not to complete every challenge, as nowadays any AI 
 * Handle exceptions that occur in parallel streams appropriately.
 * Deal with order-dependent operations in parallel streams.
 
-### 21 - Real-World Applications
+### 19 - Real-World Applications
 
 * Implement a search function that filters products based on multiple criteria. Input: List<Product> with name, category, price fields, and search parameters.
 * Parse a log file and extract error messages, grouped by error type. Input: Path to log file.
@@ -192,7 +175,7 @@ The purpose of this repo is not to complete every challenge, as nowadays any AI 
 * Implement a custom DSL (Domain Specific Language) that leverages streams for data processing.
 * Create a data validation framework using streams to apply multiple validation rules. Input: Object to validate and validation rules.
 
-### 22 - Bonus Challenges
+### 20 - Bonus Challenges
 
 * Create a reactive stream processing system using Java streams and CompletableFuture.
 * Implement MapReduce patterns using Java streams for distributed data processing simulations.
