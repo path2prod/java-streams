@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Test;
 
 import com.path2prod.Event;
 import com.path2prod.Product;
-import com.path2prod.section12.complete.Section12;
+import com.path2prod.section12.tdd.Section12;
 
 public class Section12Test {
 
