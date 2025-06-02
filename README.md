@@ -116,11 +116,8 @@ The purpose of this repo is not to complete every challenge, as nowadays any AI 
 
 ### 13 - Functional Interfaces with Streams
 
-* Create and use custom functional interfaces with streams beyond the standard ones.
-* Implement a stream operation using all four standard functional interfaces (Function, Predicate, Consumer, Supplier).
-* Use method references (static, instance, constructor) in different stream operations.
-* Chain multiple functional operations together in a complex data processing pipeline.
-* Implement currying with streams to create reusable stream transformations.
+* Calculate Body Mass Index implementing a currying function (BMI =W [kg]/H [m2])
+* Chaining functional operations for adding title for person over 18. Input: List<Person> with name
 
 ### 14 - Combining with Other Java Features
 
