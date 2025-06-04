@@ -2,7 +2,9 @@ package com.path2prod;
 
 import java.util.List;
 
-public record Person(int age, String name,double height, double weight) {
+import com.path2prod.section14.Sensitive;
+
+public record Person(int age, @Sensitive String name,double height, double weight) {
       private static final double DEFAULT_HEIGHT = 0.0;
       private static final double DEFAULT_WEIGHT = 0.0;
 

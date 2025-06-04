@@ -1,0 +1,54 @@
+{
+    "mappings": [
+        {
+            "request": {
+                "method": "GET",
+                "url": "/user/id/1"
+            },
+            "response": {
+                "status": 200,
+                "jsonBody": {
+                    "id": "1",
+                    "firstName": "user-name",
+                    "lastName": "user-lastName"
+                },
+                "headers": {
+                    "Content-Type": "application/json"
+                }
+            }
+        },
+        {
+            "request": {
+                "method": "GET",
+                "url": "/user/id/1/address"
+            },
+            "response": {
+                "status": 200,
+                "jsonBody": {
+                    "line1": "user-line1",
+                    "line2": "user-line2",
+                    "line3": "user-line3",
+                    "line4": "user-line4"
+                },
+                "headers": {
+                    "Content-Type": "application/json"
+                }
+            }
+        },
+        {
+            "request": {
+                "method": "GET",
+                "url": "/user/id/1/contacts"
+            },
+            "response": {
+                "status": 404,
+                "jsonBody": {
+                    "message": "no contacts found"
+                },
+                "headers": {
+                    "Content-Type": "application/json"
+                }
+            }
+        }
+    ]
+}
